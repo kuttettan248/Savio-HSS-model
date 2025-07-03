@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Staff - Savio Higher Secondary School</title>
+  <style>
+    /* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #004aad;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Section */
+  section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #004aad;
+  }
+  
+  section p {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+  }
+  
+  /* Staff Grid */
+  .staff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .staff-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .staff-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .staff-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .staff-card h4 {
+    margin-top: 10px;
+    color: #004aad;
+  }
+  
+  .staff-card p {
+    color: #555;
+    font-size: 0.95rem;
+  }
+  
+  /* Gallery Grid */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+    padding: 20px;
+  }
+  
+  .gallery-grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .gallery-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #004aad;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Savio Higher Secondary School</h1>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="admissions.html">Admissions</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="staff.html">Staff</a></li>
+      <li><a href="careers.html">Careers</a></li>
+      <li><a href="faq.html">FAQs</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section>
+  <h2>Meet Our Staff</h2>
+  <p>Dedicated, Experienced, and Caring — Meet the amazing team that makes our school great!</p>
+
+  <div class="staff-grid">
+    <div class="staff-card">
+      <img src="teacher1.jpg" alt="Principal Photo">
+      <h4>Principal</h4>
+      <p>Principal</p>
+    </div>
+
+    <div class="staff-card">
+      <img src="teacher2.jpg" alt="Vice Principal Photo">
+      <h4>Vice Principal</h4>
+      <p>Vice Principal</p>
+    </div>
+
+    <div class="staff-card">
+      <img src="teacher3.jpg" alt="Math Teacher Photo">
+      <h4>Math Teacher</h4>
+      <p>Mathematics Teacher</p>
+    </div>
+
+    <div class="staff-card">
+      <img src="teacher4.jpg" alt="Science Teacher Photo">
+      <h4>Science Teacher</h4>
+      <p>Science Teacher</p>
+    </div>
+
+    <div class="staff-card">
+      <img src="teacher5.jpg" alt="English Teacher Photo">
+      <h4>English Teacher</h4>
+      <p>English Teacher</p>
+    </div>
+
+    <div class="staff-card">
+      <img src="teacher6.jpg" alt="Sports Coach Photo">
+      <h4>Sports Coach</h4>
+      <p>Sports Coach</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Savio Higher Secondary School. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

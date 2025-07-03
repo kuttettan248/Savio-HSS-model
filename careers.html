@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Careers - Savio Higher Secondary School</title>
+  <style>
+    /* HEADER + NAVBAR */
+header {
+    background: #004aad;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Make body better */
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+  }
+  
+/* CAREERS PAGE STYLES */
+.careers-section {
+    padding: 100px 20px;
+    text-align: center;
+    background: #f9fbfe;
+  }
+  
+  .careers-section h2 {
+    font-size: 2.8rem;
+    color: #004aad;
+    margin-bottom: 20px;
+    animation: fadeInDown 1s ease forwards;
+  }
+  
+  .careers-section p {
+    font-size: 1.3rem;
+    color: #555;
+    margin-bottom: 30px;
+    animation: fadeInUp 1s ease forwards;
+  }
+  
+  .careers-section img.careers-image {
+    width: 350px;
+    max-width: 90%;
+    margin: 20px auto;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    animation: zoomIn 1s ease forwards;
+  }
+  
+  /* animating frame */
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes zoomIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  /* footer */
+  footer {
+    background: #004aad;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Savio Higher Secondary School</h1>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="admissions.html">Admissions</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="staff.html">Staff</a></li>
+      <li><a href="careers.html">Careers</a></li>
+      <li><a href="faq.html">FAQs</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="careers-section">
+  <h2>Careers at Savio Higher Secondary School</h2>
+  <p>Currently, there are no open positions available.</p>
+  <img src="careers.jpg" alt="Careers" class="careers-image">
+  <p>Please check back later for future opportunities!</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Savio Higher Secondary School. All rights reserved.</p>
+</footer>
+</body>
+</html>
