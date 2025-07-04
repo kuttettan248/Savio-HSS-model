@@ -4,147 +4,147 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Savio Higher Secondary School</title>
-    <style>body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
-}
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
 
-/* Header */
-header {
-    background-color: #004aad;
-    color: white;
-    padding: 1em 0;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    animation: slideDown 1s ease-out forwards;
-}
+        /* Header */
+        header {
+            background-color: #004aad;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            animation: slideDown 1s ease-out forwards;
+        }
 
-/* Navbar */
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+        /* Navbar */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
 
-nav ul li {
-    display: inline-block;
-    margin: 0 10px;
-}
+        nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1em;
-}
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
 
-/* Hero Section */
-#hero {
-    background: url('savio%201.png') no-repeat center center/cover;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
-    animation: fadeInHero 2s ease-in-out forwards;
-}
+        /* Hero Section */
+        #hero {
+            background: url('savio%201.png') no-repeat center center/cover;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+            animation: fadeInHero 2s ease-in-out forwards;
+        }
 
-.hero-img {
-    max-width: 90%;
-    margin-top: 20px;
-    border-radius: 10px;
-}
+        .hero-img {
+            max-width: 90%;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
 
-/* Section */
-section {
-    padding: 50px;
-    text-align: center;
-}
+        /* Section */
+        section {
+            padding: 50px;
+            text-align: center;
+        }
 
-/* Quick Links */
-.links-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
-    animation: fadeInLinks 2s ease-in-out forwards;
-}
+        /* Quick Links & Savio Links */
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+            animation: fadeInLinks 2s ease-in-out forwards;
+        }
 
-.links-grid a {
-    background-color: #004aad;
-    color: white;
-    padding: 10px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
+        .links-grid a {
+            background-color: #004aad;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
 
-.links-grid a:hover {
-    background-color: #002f6c;
-    transform: scale(1.1);
-}
+        .links-grid a:hover {
+            background-color: #002f6c;
+            transform: scale(1.1);
+        }
 
-/* Footer */
-footer {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 0.9em;
-    animation: fadeInFooter 2s ease-in-out forwards;
-}
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9em;
+            animation: fadeInFooter 2s ease-in-out forwards;
+        }
 
-/* 🔥 Keyframes */
-@keyframes fadeInHero {
-    from {
-        opacity: 0;
-        transform: translateY(-30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+        /* 🔥 Keyframes */
+        @keyframes fadeInHero {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
 
-@keyframes fadeInLinks {
-    from {
-        opacity: 0;
-        transform: scale(0.8);
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
+        @keyframes fadeInLinks {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
 
-@keyframes fadeInFooter {
-    from {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+        @keyframes fadeInFooter {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
 
-@keyframes slideDown {
-    from {
-        transform: translateY(-100%);
-    }
-    to {
-        transform: translateY(0);
-    }
-}
-</style>
-
+        @keyframes slideDown {
+            from {
+                transform: translateY(-100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+    </style>
 </head>
 <body>
 
@@ -182,6 +182,15 @@ footer {
             <a href="events.html">Upcoming Events</a>
             <a href="gallery.html">Photo Gallery</a>
             <a href="news.html">Latest News</a>
+        </div>
+    </section>
+
+    <section id="savio-links">
+        <h2>Savio Links</h2>
+        <div class="links-grid">
+            <a href="https://www.youtube.com/@saviohssdevagiri2987" target="_blank">📺 YouTube Channel</a>
+            <a href="https://www.facebook.com/saviohssdevagiri/" target="_blank">📺 Facebook Page</a>
+            <a href="https://samagra.kite.kerala.gov.in/#/textbook/page" target="_blank">📚 School Textbooks</a>
         </div>
     </section>
 
