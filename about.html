@@ -1,115 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ml">
 <head>
     <meta charset="UTF-8">
     <title>About Us | Savio Higher Secondary School</title>
     <style>
-body, h1, h2, h3, p, ul {
-    margin: 0;
-    padding: 0;
-}
+        body {
+            font-family: 'Noto Sans Malayalam', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+        }
 
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-}
+        header {
+            background-color: #004aad;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
 
-header {
-    background-color: #004aad;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
+        nav {
+            background-color: #00337f;
+            padding: 10px;
+            text-align: center;
+        }
 
-nav {
-    background-color: #003580;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 10px 0;
-}
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-}
+        .about-section {
+            padding: 40px;
+            background-color: white;
+            max-width: 900px;
+            margin: 30px auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
 
-nav a:hover {
-    color: #ffcc00;
-}
+        .about-section h2 {
+            color: #004aad;
+            margin-bottom: 20px;
+            text-align: center;
+        }
 
-.about-header {
-    background-color: #004aad;
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
-}
+        .about-section p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #333;
+            text-align: justify;
+        }
 
-.about-content {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    background: white;
-    border-radius: 8px;
-}
-
-.about-content h2 {
-    color: #004aad;
-    margin-bottom: 10px;
-}
-
-footer {
-    text-align: center;
-    margin-top: 40px;
-    padding: 20px;
-    background-color: #003580;
-    color: white;
-}
-
+        footer {
+            background-color: #004aad;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <h1>സാവിയോ ഹൈയർ സെക്കൻഡറി സ്കൂൾ</h1>
+        <p>ദേവഗിരി, കോഴിക്കോട്</p>
+    </header>
 
-<header>
-    <h1>Savio Higher Secondary School</h1>
-</header>
+    <nav>
+        <a href="index.html">ഹോം</a>
+        <a href="about.html">ഞങ്ങളെ കുറിച്ച്</a>
+        <a href="contact.html">ബന്ധപ്പെടുക</a>
+    </nav>
 
-<nav>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="admissions.html">Admissions</a></li>
-                <li><a href="academics.html">Academics</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="staff.html">Staff</a></li>
-                <li><a href="careers.html">Careers</a></li>
-                <li><a href="faq.html">FAQs</a></li>
-                <li><a href="contact.html">Contact</a></li>
-</nav>
+    <section class="about-section">
+        <h2>ഞങ്ങളുടെ സ്‌കൂളിനെ കുറിച്ച്</h2>
+        <p>
+            ഐക്യ കേരളം പിറക്കും മുമ്പ് 1956 ജൂൺ 12 ന് മദ്രാസ് സംസ്ഥാനത്തിന്റെ ഭാഗമായിരുന്ന സാമുതിരിയുടെ മണ്ണിൽ
+            സാവിയോ മിഡിൽ സ്കൂൾ ആരംഭിച്ചു. കുട്ടികൾക്ക് നല്ല വിദ്യാഭ്യാസം നൽകുക എന്ന ലക്ഷ്യത്തോടെ ഈ സ്ഥാപനത്തിന്
+            ദൈവത്തിന്റെ ഗിരി എന്നർത്ഥമുള്ള ദേവഗിരി എന്ന് പേരിട്ട് ക്രൈസ്തവ ധാർമ്മികതയുള്ള ഹോർമിസ്ചൻ, ഷാബോച്ചൻ,
+            റൈനോൾഡച്ചൻ എന്നിവർ ചേർന്ന് സ്ഥാപിച്ച ഈ സ്ഥാപനം കുട്ടികളുടെ മാത്യകയായ വിശുദ്ധ ഡോമിനിക് സാവിയോയുടെ പേരാണ്
+            നല്കിയത്.
+        </p>
+    </section>
 
-<section class="about-header">
-    <h2>About Us</h2>
-    <p>Discover the journey of Savio Higher Secondary School.</p>
-</section>
-
-<section class="about-content">
-    <h2>Our Story</h2>
-    <p>Established in 1990, Savio Higher Secondary School has been a beacon of excellence in education. Our commitment is to nurture students academically, morally, and socially, preparing them for the future with confidence.</p>
-
-    <h2>Our Mission</h2>
-    <p>To provide high-quality education that inspires every student to achieve their full potential, and to foster a culture of respect, integrity, and lifelong learning.</p>
-
-    <h2>Our Vision</h2>
-    <p>To be a leading institution recognized for academic excellence, innovation, and community impact.</p>
-</section>
-
-<footer>
-    &copy; 2025 Savio Higher Secondary School. All rights reserved.
-</footer>
-
+    <footer>
+        © 2025 Savio Higher Secondary School. All rights reserved.
+    </footer>
 </body>
 </html>
